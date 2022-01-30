@@ -13,10 +13,10 @@
         </ion-toolbar>
       </ion-header>
     
-      <div id="container">
-          <custom-button>Button</custom-button><br>
-          <custom-button type="primary">Button</custom-button><br>
-          <custom-button type="secondary">Button</custom-button>
+      <div id="container" style="background:gray: height:300px">
+          <custom-button :text-size="1.5" bg="white" :width="90" :height="10" color="orange">Text</custom-button><br><br>
+          <custom-button :text-size="1.9" bg="white" :width="130" :height="50" color="green">Text</custom-button><br><br>
+          <custom-button :text-size="1" bg="yellow" :width="40" :height="3" color="red">Text</custom-button>
       </div>
     </ion-content>
   </ion-page>
